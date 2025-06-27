@@ -12,7 +12,7 @@ This project allows secure file sharing using:
 - ⚙ Python Flask framework  
 - 📁 Secure file upload/download  
 - 🖥 HTML templates for UI  
-
+- 📦 pip install flask in vs terminal
 ---
 
 ## 📂 FUTURE_CS_03/ Directory Structure
