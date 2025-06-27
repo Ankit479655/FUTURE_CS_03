@@ -1,4 +1,4 @@
-﻿# Secure_File_Sharing_System
+﻿# 🔐 Secure File Sharing System
 
 A Flask-based secure file sharing system for encrypted file upload & download.
 
@@ -27,13 +27,13 @@ This project allows secure file sharing using:
 
 ---
 
-## 🧪 Sample Code (app.py)
+## 🧪 Sample Code (`app.py')
 
-```python
+python
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory, flash
 import os
 
-app = Flask(_name_)
+app = Flask(__name__)
 app.secret_key = 'your-secret-key'
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -58,10 +58,11 @@ def upload_file():
 def download_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename, as_attachment=True)
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     app.run(debug=True)
 
----
+
+
 
 ## 🌐 HTML Template (index.html)
 ```
