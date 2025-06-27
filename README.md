@@ -17,7 +17,7 @@ This project allows secure file sharing using:
 
 ## 📂 FUTURE_CS_03/ Directory Structure
 
-├── main.py # Main Flask application
+├── app.py # Main Flask application
 ├── templates/ # HTML templates (UI pages)
 │ └── index.html
 ├── uploads/ # Folder where uploaded/encrypted files are stored
@@ -27,7 +27,7 @@ This project allows secure file sharing using:
 
 ---
 
-## 🧪 Sample Code (main.py)
+## 🧪 Sample Code (app.py)
 
 ```python
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory, flash
@@ -63,4 +63,4 @@ if _name_ == '_main_':
 
 ---
 
-## 🧪 Sample Code (main.py)
+## 🧪 Sample Code (app.py)
