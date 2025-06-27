@@ -105,3 +105,8 @@ if __name__ == '__main__':
 </div>
 </body>
 </html>
+```
+## 📝 📂Uploads/ IMAGE 
+## 🖼️ Uploaded
+
+![Preview](uploads/uploads/0190aec639c556cfd099d5d6f8df3276.jpg)
