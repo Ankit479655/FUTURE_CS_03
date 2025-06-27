@@ -29,7 +29,7 @@ This project allows secure file sharing using:
 
 ## 🧪 Sample Code (`app.py')
 
-python
+```python
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory, flash
 import os
 
